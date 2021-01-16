@@ -8,6 +8,17 @@
   ],
   "routes": [
     {
+      "src": "/.*",
+      "dest": "index.js"
+    },
+    {
+      "src": "/",
+      "dest": "/server.js",
+      "methods": [
+        "GET"
+      ]
+    },
+    {
       "src": "/randomNumbers",
       "dest": "/index.js",
       "methods": [
