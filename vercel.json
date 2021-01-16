@@ -8,8 +8,18 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/"
+      "src": "/randomNumber",
+      "dest": "/index.js",
+      "methods": [
+        "GET"
+      ]
+    },
+    {
+      "src": "/randomNumber/random",
+      "dest": "/index.js",
+      "methods": [
+        "GET"
+      ]
     }
   ]
 }
