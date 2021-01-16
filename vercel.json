@@ -8,14 +8,14 @@
   ],
   "routes": [
     {
-      "src": "/randomNumber",
+      "src": "/randomNumbers",
       "dest": "/index.js",
       "methods": [
         "GET"
       ]
     },
     {
-      "src": "/randomNumber/random",
+      "src": "/randomNumbers/random",
       "dest": "/index.js",
       "methods": [
         "GET"
