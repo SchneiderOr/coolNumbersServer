@@ -7,7 +7,6 @@ import cors from "cors";
 const PORT = process.argv[2] || process.env.PORT || 8000;
 const app = express();
 
-console.log(PORT, process.env.PORT);
 app.use(cors());
 app.use(logger(process.env.NODE_ENV || "dev"));
 app.use(express.json());
